@@ -50,7 +50,7 @@ describe('Tests', () => {
       expect(() => rentCar.calculatePriceOfCar('Trabant', 20)).throw('No such model in the catalog!');
  
    });
-   it('Ther is Car in catalogue', () => {
+   it('There is Car in catalogue', () => {
 
      let a = rentCar.calculatePriceOfCar('BMW', 20);
      let c = 45 * 20;
