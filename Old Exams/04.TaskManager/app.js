@@ -6,7 +6,7 @@ function solve() {
     let orangeArticle = document.getElementsByTagName('div')[4];
     let yellowArticle = document.getElementById('in-progress');
     let greenArticle = document.getElementsByTagName('div')[8];
-    console.log(greenArticle)
+    
     
     
      addBtn.type = 'button';
